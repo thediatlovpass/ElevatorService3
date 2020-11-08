@@ -15,6 +15,8 @@ public class ElevatorApp {
         Person person6 = new Person(6, 90);
         elevator.addPerson(person6);
         elevator.start();
+        elevator.emptyElevator();
         System.out.println(elevator.currentLoad);
+
     }
 }
